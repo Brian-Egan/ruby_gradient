@@ -1,13 +1,5 @@
 # require "awesome_print"
 
-## TO USE:
-# 1. Create a new Gradient with the two end colors, and the amount of steps you'd like your gradient to have in between:
-#   -- i.e. gradient = Gradient.new("ffffff", "#d80015", 5)
-# 2. This will print the gradient to the console, and return a Gradient object. The gradient colors are stored as an array, to access them either type `gradient.output` or run `gradient.generate`
-# 3. To increase/decrease the number of steps in your gradient, simply run `.generate(steps)` with the new number of steps you'd like to use. i.e. `more_detailed_gradient = gradient.generate(15)`.
-
-
- 
 class Gradient
   attr_accessor :color1, :color2, :steps, :output, :colors
 
